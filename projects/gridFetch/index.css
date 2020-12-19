@@ -1,0 +1,29 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(182, 4, 40);
+    color: white;
+}
+
+.a-pokemon {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    border: 0.1rem solid rosybrown;
+}
+
+.b-pokemon {
+    border: 0.1rem solid rosybrown;
+    text-align: center;
+    margin: 10px;
+    background-color: rgb(95, 9, 26);
+    
+} 
+
+span {
+    color: #fd3d6d
+}
+
+.a-pokemon-id {
+    font-size: 1.2rem;
+    color: yellowgreen;
+}
